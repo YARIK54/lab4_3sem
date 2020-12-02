@@ -14,6 +14,8 @@ namespace lab4
             Console.WriteLine("Результатом сложения А и B будет" + Convert.ToString(res1));
             double res2 = A - B;
             Console.WriteLine("Результат вычитания А и В - " + Convert.ToString(res2));
+            double res3 = A * B;
+            Console.WriteLine("Результат умножения А и В - " + Convert.ToString(res3));
         }
     }
 }
